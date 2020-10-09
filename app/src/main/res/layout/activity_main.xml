@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이기"
+        android:textSize="70sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:text="야방"
+        android:textSize="70sp"/>
+
+    <EditText
+        android:id="@+id/ipAddress"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="IP주소"/>
+
+    <EditText
+        android:id="@+id/inputNickname"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="50dp"
+        android:gravity="center"
+        android:hint="닉네임"/>
+
+    <Button
+        android:id="@+id/enterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="입장"/>
+
+</LinearLayout>
