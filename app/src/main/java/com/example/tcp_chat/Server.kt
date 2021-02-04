@@ -8,7 +8,6 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import java.io.DataInputStream
-import java.io.DataOutput
 import java.io.DataOutputStream
 import java.net.ServerSocket
 import java.net.Socket
